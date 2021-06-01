@@ -3,10 +3,11 @@ package com.example.ec.repo;
 import com.example.ec.domain.Tour;
 import org.springframework.data.repository.CrudRepository;
 
+
 /**
- * @author Mohammed Amr
- * @created 01/06/2021 - 16:25
- * @project explorecali
+ * Tour Repository Interface
+ *
+ * Created by Mary Ellen Bowman
  */
 public interface TourRepository extends CrudRepository<Tour, Integer> {
 }
